@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "inheritEnvironments": [
+        "msvc_x86"
+      ],
+      "name": "x86-Debug",
+      "includePath": [
+        "d:/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++",
+        "d:/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++/mingw32",
+        "d:/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++/backward",
+        "d:/mingw/bin/../lib/gcc/mingw32/6.3.0/include",
+        "d:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../include",
+        "d:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/include",
+        "${env.INCLUDE}",
+        "${workspaceRoot}\\**"
+      ],
+      "defines": [
+        "WIN32",
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "intelliSenseMode": "windows-msvc-x86"
+    }
+  ]
+}

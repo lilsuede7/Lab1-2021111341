@@ -1,0 +1,44 @@
+﻿  graph.cpp
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(260,1): error C3867: “Graph::print”: 非标准语法；请使用 "&" 来创建指向成员的指针
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(363,19): error C2429: 语言功能 "结构化绑定" 需要编译器标志 "/std:c++17"
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(371,30): error C2059: 语法错误:“:”
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(372,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(375,29): error C2065: “w”: 未声明的标识符
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(375,38): error C2065: “v”: 未声明的标识符
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(377,30): error C2065: “v”: 未声明的标识符
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(377,39): error C2065: “w”: 未声明的标识符
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(378,30): error C2065: “v”: 未声明的标识符
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(381,45): error C2065: “v”: 未声明的标识符
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(383,39): error C2065: “v”: 未声明的标识符
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(383,1): error C2665: “std::priority_queue<std::pair<int,std::string>,std::vector<std::pair<int,std::string>,std::allocator<std::pair<int,std::string>>>,std::greater<std::pair<int,std::string>>>::push”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\queue(316,10): message : 可能是“void std::priority_queue<std::pair<int,std::string>,std::vector<std::pair<int,std::string>,std::allocator<std::pair<int,std::string>>>,std::greater<std::pair<int,std::string>>>::push(std::pair<int,std::string> &&)”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\queue(311,10): message : 或    “void std::priority_queue<std::pair<int,std::string>,std::vector<std::pair<int,std::string>,std::allocator<std::pair<int,std::string>>>,std::greater<std::pair<int,std::string>>>::push(const std::pair<int,std::string> &)”
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(383,27): message : “void std::priority_queue<std::pair<int,std::string>,std::vector<std::pair<int,std::string>,std::allocator<std::pair<int,std::string>>>,std::greater<std::pair<int,std::string>>>::push(const std::pair<int,std::string> &)”: 无法将参数 1 从“initializer list”转换为“const std::pair<int,std::string> &”
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(383,1): message : 原因如下: 无法从“initializer list”转换为“const std::pair<int,std::string>”
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(383,1): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\queue(311,10): message : 参见“std::priority_queue<std::pair<int,std::string>,std::vector<std::pair<int,std::string>,std::allocator<std::pair<int,std::string>>>,std::greater<std::pair<int,std::string>>>::push”的声明
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(383,1): message : 尝试匹配参数列表“(initializer list)”时
+  main.cpp
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(260,1): error C3867: “Graph::print”: 非标准语法；请使用 "&" 来创建指向成员的指针
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(363,19): error C2429: 语言功能 "结构化绑定" 需要编译器标志 "/std:c++17"
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(371,30): error C2059: 语法错误:“:”
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(372,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(375,29): error C2065: “w”: 未声明的标识符
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(375,38): error C2065: “v”: 未声明的标识符
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(377,30): error C2065: “v”: 未声明的标识符
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(377,39): error C2065: “w”: 未声明的标识符
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(378,30): error C2065: “v”: 未声明的标识符
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(381,45): error C2065: “v”: 未声明的标识符
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(383,39): error C2065: “v”: 未声明的标识符
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(383,1): error C2665: “std::priority_queue<std::pair<int,std::string>,std::vector<std::pair<int,std::string>,std::allocator<std::pair<int,std::string>>>,std::greater<std::pair<int,std::string>>>::push”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\queue(316,10): message : 可能是“void std::priority_queue<std::pair<int,std::string>,std::vector<std::pair<int,std::string>,std::allocator<std::pair<int,std::string>>>,std::greater<std::pair<int,std::string>>>::push(std::pair<int,std::string> &&)”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\queue(311,10): message : 或    “void std::priority_queue<std::pair<int,std::string>,std::vector<std::pair<int,std::string>,std::allocator<std::pair<int,std::string>>>,std::greater<std::pair<int,std::string>>>::push(const std::pair<int,std::string> &)”
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(383,27): message : “void std::priority_queue<std::pair<int,std::string>,std::vector<std::pair<int,std::string>,std::allocator<std::pair<int,std::string>>>,std::greater<std::pair<int,std::string>>>::push(const std::pair<int,std::string> &)”: 无法将参数 1 从“initializer list”转换为“const std::pair<int,std::string> &”
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(383,1): message : 原因如下: 无法从“initializer list”转换为“const std::pair<int,std::string>”
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(383,1): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\queue(311,10): message : 参见“std::priority_queue<std::pair<int,std::string>,std::vector<std::pair<int,std::string>,std::allocator<std::pair<int,std::string>>>,std::greater<std::pair<int,std::string>>>::push”的声明
+D:\HuaweiMoveData\Users\SanChuan\Desktop\文档\大三下课程\软件工程\Lab1\Software_Engineering-HIT2024Fall-main\Lab1\graph.cpp(383,1): message : 尝试匹配参数列表“(initializer list)”时
+  read.cpp
+  正在生成代码...
